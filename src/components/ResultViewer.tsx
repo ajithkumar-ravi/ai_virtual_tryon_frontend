@@ -208,7 +208,7 @@ export const ResultViewer: React.FC<ResultViewerProps> = ({
               </div>
               <div>
                 <h4 className="font-display text-base font-bold text-neutral-900 dark:text-white">
-                  Gemini AI Stylist & Fit Assessment
+                  AI Stylist & Fit Assessment
                 </h4>
                 <p className="text-xs text-neutral-500 dark:text-neutral-400">
                   Multimodal vision analysis of your body contours and garment drape

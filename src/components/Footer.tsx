@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
             </a>
             <span className="inline-flex items-center gap-1 text-emerald-800 dark:text-emerald-300">
               <Sparkles className="w-3.5 h-3.5" />
-              Gemini AI
+              AI Synthesis
             </span>
           </div>
 
