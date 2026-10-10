@@ -1,7 +1,9 @@
 import { Product, ProductsResponse, TryOnResponseData } from '../types.js';
 
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
-
+let API_BASE = import.meta.env.VITE_API_URL || '/api';
+if (API_BASE.startsWith('http') && !API_BASE.endsWith('/api')) {
+  API_BASE = `${API_BASE.replace(/\/$/, '')}/api`;
+}
 export interface TryOnRequestPayload {
   personFile: File | Blob;
   garmentFile?: File | Blob;
